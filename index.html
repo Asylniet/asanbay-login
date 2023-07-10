@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="flex justify-between">
+    <section class="image-container flex flex-center">
+      <img src="https://www.pngall.com/wp-content/uploads/12/Illustration-PNG.png" alt="Hello image">
+    </section>
+    <section class="main-container flex flex-center flex-col white-bg">
+      <span class="text-header">
+        Welcome, back!
+      </span>
+      <span class="text-small text-accent">
+        Please, enter your details
+      </span>
+      <form action="">
+        <div class="mb-2">
+          <label for="email">Email</label>
+          <input type="email" id="Email" required>
+        </div>
+        <div class="mb-3">
+          <label for="pass">Password</label>
+          <input type="password" id="pass" required>
+        </div>
+        <div class="flex mb-3">
+          <input type="checkbox" id="remember">
+          <label for="remember" class="text-small">Remember me for 30 days</label>
+          <a href="/forgot" class="text-small text-accent ml-auto">Forgot password</a>
+        </div>
+        <div>
+          <button class="button primary mb-2">
+            Log in
+          </button>
+          <div class="button secondary">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png" alt="Google">
+            Log in with Google
+          </div>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
